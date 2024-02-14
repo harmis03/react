@@ -1,0 +1,18 @@
+.wishme{
+    transition: .3s;
+
+}
+.wishme:hover{
+    text-shadow: 5px 5px 7px rgb(43, 75, 139);
+    color:rgb(83, 102, 177);
+}
+.wishyou{
+    transition: .3s;
+
+}
+.wishyou:hover{
+    text-shadow: 5px 5px 7px rgb(43, 75, 139);
+    color:rgb(161, 239, 175);
+}
+
+

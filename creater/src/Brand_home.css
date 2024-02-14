@@ -1,0 +1,135 @@
+#brand_bg {
+    height: 450 px;
+    width: 100%;
+    background-color: #ECE5FF;
+}
+.Typewriter{
+    display: contents;
+}
+#brand_info {
+    font-size: 60px;
+    font-family: Gilroy;
+    font-weight: bold;
+}
+
+#brand_span {
+    color: #007CF5;
+}
+
+#brand_cont {
+    font-family: Avenir;
+    font-size: 20px;
+    color: #777E90;
+}
+
+#brand_button {
+    font-family: Poppins;
+    font-size: 16px;
+    height: 35px;
+    width: 120px;
+    background-color: #23262F;
+    letter-spacing: .5px;
+    color: white;
+    border-radius: 15px 15px;
+    transition: .5s;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#brand_button:hover {
+    background-color: #007CF5;
+}
+
+#brand_img {
+    height: 100%;
+    width: 100%;
+}
+
+#brand_cont_bg {
+    background-color: #DCEDF9;
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#brand_sign {
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#brand_signup {
+    margin-left: 50%;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    height: 35px;
+    width: 130px;
+    background-color: #23262F;
+    letter-spacing: .5px;
+    color: white;
+    border-radius: 15px 15px;
+    transition: .5s;
+    border: none;
+}
+
+#brand_signup:hover {
+    background-color: #007CF5;
+}
+
+#brand_easy {
+    margin-top: 20px;
+    font-family: Gilroy;
+    font-size: 54px;
+    color: #23262F;
+    font-weight: 600;
+}
+
+#brand_image {
+    height: 100%;
+    width: 100%;
+}
+
+#brand_information {
+    font-family: Poppins;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #23262F;
+}
+
+#brand_register {
+    height: 100%;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #ECE5FF;
+}
+
+#brand_login {
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+#brand_buttons {
+    margin-left: 25%;
+    font-family: Poppnis;
+    background-color: #23262F;
+    height: 30px;
+    width: 140px;
+    margin-bottom: 20px;
+    letter-spacing: .5px;
+    border-radius: 15px 15px;
+    font-size: 16px;
+    transition: .5s;
+    border: none;
+    color: #FFFFFF;
+}
+
+#brand_buttons:hover {
+    background-color: #007CF5;
+}

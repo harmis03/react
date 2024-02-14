@@ -1,0 +1,58 @@
+.from-sections{
+    background: rgb(246, 246, 246);
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(230, 230, 230);
+    overflow: auto;
+padding-top: 40px;
+}
+.fromforcampaings{
+    padding-top: 50px;
+    background: rgb(255, 255, 255);
+    max-width: 1000px;
+    margin: 0px auto 20px;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+.youme{
+    display: block;
+    margin-top: 5px;
+}
+.specialmarginforspan{
+    margin-top: 10px ;
+    margin-bottom: 5px;
+}
+.mainfor{
+    margin-bottom: 15px ;
+
+}
+.widthfull{
+    width: 100%;
+}
+.ant-input{
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum","tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    transition: all .3s;
+}
+input:focus{
+    border-color: #40a9ff;
+    border-right-width: 1px;
+    box-shadow: 0 0 0 2px rgba(24,144,255,.2);
+}

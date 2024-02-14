@@ -1,0 +1,94 @@
+#account{
+    padding: 40px;
+}
+.account_details{
+    
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(230, 230, 230);
+    font-size: 1.1rem;
+}
+.ant_from{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum","tnum";
+}
+.ant_row{
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+    margin: 4px 0px 12px;
+}
+.ant_col{
+    padding-left: 6px;
+    padding-right: 6px;
+    display: block;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.item_lable{
+    font-size: 0.9rem;
+    display: block;
+    text-align: left;
+}
+.ant_input{
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: "tnum","tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    transition: all .3s;
+}
+.password_iner{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 20px auto 10px;
+    max-width: auto;
+    /* border: 1px solid rgb(217, 217, 217); */
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+.change_byutton{
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 20px 20px;
+    font-weight: bold;
+    background-color: rgb(94, 173, 222);
+    border: none;
+    font-size: 15px;
+    transition: .4s;
+}
+.change_byutton:hover{
+    box-shadow: 7px 7px 10px rgb(74, 118, 148);
+    border: none;
+}
+#manu{
+    text-align: center;
+    display: block;
+}

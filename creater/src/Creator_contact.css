@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#creator_bgcolor {
+    height: 100%;
+    width: 100%;
+    background-color: #DCECFB;
+}
+
+#creator_h2 {
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-top: 10px;
+    letter-spacing: .5px;
+}
+
+#creator_content {
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    margin-top: 30px;
+    letter-spacing: .5px;
+    padding-bottom: 20px;
+}
+
+#creator_form {
+    background-image: linear-gradient(30deg, #44378a, #030a2b);
+    color: white;
+    padding-top: 20px;
+}
+
+#form::placeholder {
+    color: white;
+}
+
+#c_form::placeholder {
+    color: white;
+}
+
+#creator_form::placeholder {
+    color: white;
+}
+
+#form {
+    width: 200px;
+    background-image: linear-gradient(30deg, #44378a, #030a2b);
+    border: none;
+    color: white;
+    border-radius: 10px 10px;
+    text-align: center;
+    padding: 10px 20px;
+    transition: .4s;
+}
+
+#form:hover {
+    background-image: linear-gradient(30deg, #030a2b, #44378a);
+}
+
+#c_form {
+    width: 200px;
+    margin-left: 20px;
+    color: white;
+    /* background-color: #484D6E; */
+    background-image: linear-gradient(30deg, #44378a, #030a2b);
+    border: none;
+    border-radius: 10px 10px;
+    text-align: center;
+    padding: 10px 20px;
+    transition: .4s;
+}
+
+#c_form:hover {
+    background-image: linear-gradient(30deg, #030a2b, #44378a);
+}
+
+#mail {
+    width: 420px;
+    border: none;
+    background-image: linear-gradient(30deg, #44378a, #030a2b);
+    border-radius: 10px 10px;
+    margin-top: 20px;
+    color: white;
+    padding: 10px 20px;
+    transition: .4s;
+}
+
+#mail:hover {
+    background-image: linear-gradient(30deg, #030a2b, #44378a);
+}
+
+#mail::placeholder {
+    color: white;
+}
+
+#creator_option {
+    width: 420px;
+    border: none;
+    background-image: linear-gradient(30deg, #44378a, #030a2b);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px 10px;
+    margin-top: 20px;
+}
+
+
+#creator_option:hover {
+    background-image: linear-gradient(30deg, #030a2b, #44378a);
+
+}
+
+.txtarea {
+    width: 420px;
+    height: 150px;
+    border: none;
+    background-image: linear-gradient(30deg, #44378a, #030a2b);
+    border-radius: 10px 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: .4s;
+    color: white;
+}
+
+.txtarea:hover {
+    background-image: linear-gradient(30deg, #44378a, #030a2b);
+
+}
+
+.txtarea::placeholder {
+    color: white;
+}
+
+#creator_submit {
+    width: 120px;
+    height: 40px;
+    font-family: Verdana;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+}
+
+#cre_content {
+    height: 410px;
+    width: 100%;
+}
+
+#cre_footer {
+    margin-top: 30px;
+}
+
+

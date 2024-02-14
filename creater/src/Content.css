@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    -webkit-animation: flip 1s;
+    animation: flip 1s;
+    animation-duration: 1s;
+  }
+  @-webkit-keyframes flip {
+    from {
+      transform: rotateY(90deg)
+    }
+    to {
+      transform: rotateY(0deg)
+    }
+  }
+  @keyframes flip {
+    from {
+      transform: rotateY(90deg)
+    }
+    to {
+      transform: rotateY(0deg)
+    }
+  }
+
+#clr {
+    background-color: #DCECFB;
+    height: 823px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px 20px;
+    margin-top: 10px;
+}
+
+#card_img {
+    height: 330px;
+    width: 350px;
+    /* margin-top: 40px; */
+}
+
+#content {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: .5px;
+    font-family: Arial Rounded MT;
+    margin-left: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#card {
+    margin-right: 150px;
+}
+
+#btn {
+    color: white;
+    background-color: black;
+    border-radius: 15px 15px;
+    padding: 10px 10px;
+    border: none;
+    font-family: Arial Rounded MT;
+    transition: .5s;
+}
+
+#btn:hover {
+    background-color: cornflowerblue;
+    color: black;
+    border: black;
+
+}
+#btn{
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-family: cursive;
+  background-color: chocolate;
+  border: none;
+  color: #fff;
+  /* position: relative; */
+  z-index: 1;
+  /* border-radius: 10px 10px; */
+}
+#btn::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 1;
+  transition: .5s;
+}
+#btn:hover::before{
+  width: 50%;
+  z-index: -1;
+}
+#btn::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background-color: black;
+  height: 100%;
+  width: 0;
+  z-index: 1;
+  transition: .5s;
+}
+#btn:hover::after{
+  width: 50%;
+  z-index: -1;
+}

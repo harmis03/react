@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+html{
+  height: 100%;}
+
+#blog_footer{
+  height: 450px;
+}
+
+body {
+  /* width: 100%;
+  min-height: 100vh;
+  display: flex; */
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  text-transform: capitalize;
+  color: cornflowerblue;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#blog_upper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#blog_logo {
+  margin-left: 10px;
+  border: none;
+  transition: .3s;
+}
+
+#blog_logo:hover {
+  background-color: darkcyan;
+  border: none;
+  border-radius: 5px 5px;
+
+}
+
+#blog_image {
+  display: flex;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ margin-left: 50px;
+ margin-right: 50px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#cards {
+  margin-top: 75px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  grid-auto-flow: dense;
+  align-items: start;
+}
+
+#cards #card {
+  margin: 0 auto;
+  max-width: 400px;
+  height: fit-content;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+#cards #card:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s, transform 0.3s;
+  transform: scale(1.05);
+}
+
+#cards #card:hover .card-header h4 {
+  transition: color 0.3s;
+  color: royalblue;
+}
+
+#cards #card #card-hero img {
+  width: 100%;
+  min-height: 250px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#cards #card #card-header {
+  padding: 8px 16px;
+  margin-top: 20px;
+  min-height: 100px;
+}
+
+#cards #card #card-body {
+  padding: 8px 16px;
+  min-height: 150px;
+}
+
+#cards #card #card-footer {
+  padding: 8px 16px 16px 16px;
+  display: flex;
+  gap: 8px;
+}
+
+#cards #card #card-footer #footer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+#cards #card #card-footer #avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+#muted {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width: 1100px) {
+  #cards #card {
+    max-width: 280px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  #cards {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  #cards #card {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #cards {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  #cards #card {
+    max-width: 320px;
+  }
+}

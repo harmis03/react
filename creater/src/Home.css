@@ -1,0 +1,36 @@
+
+.container {
+    padding-top: 10px;
+}
+
+#image {
+    height: 25px;
+    width: 140px;
+}
+
+#colom {
+    margin-left: 20px;
+}
+
+#lnk {
+    text-decoration: none;
+}
+
+#hub {
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+#home {
+    margin-top: 8px;
+}
+
+#hub:hover {
+    color: blue;
+}
+
+#heder {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}

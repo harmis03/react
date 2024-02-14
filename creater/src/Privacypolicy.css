@@ -1,0 +1,13 @@
+.legal{
+   
+    margin: 50px 75px;
+}
+.wp-block-heading{
+    margin-bottom:20px ;
+    transition: .3s;
+}
+.wp-block-heading:hover{
+    color:rgb(83, 102, 177);
+    text-shadow: 5px 5px 7px rgb(43, 75, 139);
+
+}

@@ -1,0 +1,206 @@
+.simple {
+    margin: 20px;
+  
+}
+
+.back_button {
+    width: 8%;
+    height: 5%;
+    margin-left: 20px;
+}
+
+.button_back {
+    background: rgb(255, 255, 255);
+    color: rgb(2, 125, 240);
+    border: 0px;
+    border-radius: 20px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 3px 10px;
+    width: fit-content;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.campainebody {
+    flex-direction: row;
+    gap: 20px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.campaine_info {
+    width: 50%;
+    box-sizing: border-box;
+    flex: 1 1 0%;
+    row-gap: 20px;
+    gap: 20px;
+    display: flex;
+    font-family: "Campton-Medium", Verdana, sans-serif;
+    flex-direction: column;
+}
+
+.campain_header {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    /* display: block; */
+    font-family: "Campton-Medium", Verdana, sans-serif;
+}
+
+.image_gallery {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.my_image {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+
+}
+
+.campain_requirement {
+    width: 50%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.priduct_discription {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    /* color: cornflowerblue; */
+}
+
+.Compensation {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin: 10px;
+    /* justify-content: baseline\; */
+    
+}
+.set_compensation{
+    /* white-space: pre-wrap; */
+    text-align: justify; /* For Edge */
+  -moz-text-align-last: right; /* For Firefox prior 58.0 */
+  text-align-last: right;
+  
+}
+
+.paid_campaine {
+    color: rgb(5, 5, 5);
+    width: fit-content;
+    font-size: 0.8rem;
+    padding: 3px 5px 0px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px
+}
+.greenmy{
+    color: white;
+    width: 40%;
+    background: rgb(24, 217, 110);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.campaine_details {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.Qualifications {
+    background: rgb(255, 255, 255);
+    margin: 20px;
+
+}
+
+.Qualifications2 {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    font-size: 1rem;
+    gap: 10px;
+}
+
+.only_margin {
+    margin-left: 30px;
+}
+
+#col_foll1 {
+    color: rgb(102, 102, 102);
+    white-space: nowrap;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+#col_span1 {
+    color: rgb(2, 125, 240);
+    text-align: right;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    gap: 3px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    font-size: 1rem;
+    gap: 10px;
+}
+
+.campaine_objective {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.objective {
+    padding: 20px;
+}
+
+.align-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.arrow_left {
+    padding: 10px 10px;
+    font-size: 30px;
+    transition: .4s;
+    transform: rotate(180deg);
+
+}
+
+.arrow_left:hover {
+    color: rgb(10, 47, 103);
+    transform: rotate(0deg);
+
+}
+.thisismya{
+     height: 100px;
+     width: 100px;
+}
